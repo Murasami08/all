@@ -1,0 +1,313 @@
+@-ms-viewport { 
+    width: device-width;
+   }
+   @-o-viewport { 
+    width: device-width;
+   }
+   @viewport { 
+    width: device-width;
+   }
+@import url(null.css);
+@font-face {
+    font-family: "Manrope-Medium";
+    src: url(/fonts/Manrope-Medium.ttf);
+}
+@font-face {
+    font-family: "Manrope-Regular";
+    src: url(/fonts/Manrope-Regular.ttf);
+}
+@font-face {
+    font-family: "Prata-Regular";
+    src: url(/fonts/Prata-Regular.ttf);
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+    font-family:  "Manrope-Regular";
+
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 40px;
+}
+.head ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head ul li{
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.head ul li a{
+    color: grey;
+}
+.logo{
+    margin: 10px ;
+}
+.catalog{
+    position: relative;
+    /* display: inline-block; */
+}
+.catalog img{
+    width: 100%;
+    height: 600px;
+}
+.catalog span{
+    position: absolute;
+    left: 80px;
+    top: 200px;
+    font-size: 40px;
+    font-family: "Manrope-Medium";
+}
+.catalog p{
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    font-size: 15px;
+    color: #696969;
+}
+.catalog button{
+    position: absolute;
+    left: 80px;
+    top: 380px;
+    font-size: 20px;
+    background-color: #D5D6D1;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    color: #696969;
+}
+.bestseller{
+    margin-top: 50px;
+    
+}
+.bestseller h1{
+    position: absolute;
+font-size: 30px;
+left: 80px;
+}
+ .arrow{
+    display: flex;
+    justify-content: end;
+}
+.arrow img{
+    margin: 0 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;    
+    padding: 30px;
+}
+.card .cards h2{
+    font-size: 25px;
+    color: #505050;
+}
+.card .cards p{
+    color: #696969;
+}
+.price ul{
+display: flex;
+justify-content:space-around;
+font-size: 20px;
+}
+.secret{
+    margin: 50px 0 0 0;
+    position: relative;
+}
+.secret img{
+    width: 100%;
+    height: 100%;
+}
+.secret span{
+    position: absolute;
+    left: 80px;
+    top: 170px;
+    font-size: 40px;
+    font-family: "Manrope-Medium";
+}
+.secret p{
+    position: absolute;
+    left: 80px;
+    top: 230px;
+    font-size: 15px;
+    color: #696969;
+}
+.secret button{
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    font-size: 20px;
+    background-color: #D5D6D1;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    color: #696969;
+}
+.gudgi{
+    display: flex;
+}
+.gudgi img{
+    width: 600px;
+    height: 100%;
+}
+.gudgi .info-box{
+    width: 800px;
+    height: 700px;
+    border: 1px solid  rgb(230, 230, 230);;
+}
+.info-box h2{
+    font-size: 35px;
+    font-family: "Manrope-Medium";
+    position: absolute;
+    top: 1900px;
+    left: 650px;
+}
+.star{
+    position: absolute;
+    top: 1910px;
+    left: 1050px;
+    display: flex;
+    gap: 10px;
+}
+.star span{
+    font-size: 15px;
+}
+.info-box p{
+position: absolute;
+top: 2040px;
+left: 650px;
+color: #696969;
+}
+.border-box{
+    width: 600px;
+    height: 200px;
+    border: 1px solid  rgb(230, 230, 230);
+    position: absolute;
+    top: 2100px;
+    left: 650px;
+}
+.aromat{
+    padding: 0 0 25px 0;
+}
+.aromat img{
+    width: 50px;
+    height: 50px;
+    margin: 15px 5px;
+}
+
+.ss img{
+    width: 15px;
+    height: 15px;
+    margin: 0 15px;
+}
+.hh{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+.colvo{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+.info-box button{
+    position: absolute;
+    top: 2300px;
+left: 660px;
+font-size: 20px;
+background-color:  rgb(230, 230, 230);
+border: 1px solid black;
+width: 500px;
+height: 50px;
+color: #696969;
+}
+.goal{
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom:1px solid gray;
+    margin-bottom: 50px; */
+}
+.goal .text{
+    width: 40%;
+    height: 200px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 45px 0;
+}
+.text h1{
+    font-size: 35px;
+}
+.trio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    gap: 100px;
+}
+.trio h2{
+    font-size: 25px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .forma{
+    width: 560px;
+    height: 656px;
+}
+.forma h1{
+    font-size: 35px;
+}
+.forma p{
+    margin: 25px 0;
+}
+.forma .inp input {
+margin: 15px;
+background-color: rgb(228, 228, 228);
+border: 1px solid gray;
+width: 300px;
+height: 30px;
+}
+.forma .radio input{
+    margin: 15px;
+}
+.forma .check input{
+    margin: 15px;;
+}
+.forma button{
+    width: 300px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: rgb(228, 228, 228);
+}
+.foot {
+    background-color: rgb(228, 228, 228);
+     position: relative;
+     right: 0;
+     bottom: 0;
+     text-align: center; 
+     width: 100%;   
+     font-size: 19px;
+  font-weight: bold;
+  margin: 25px 0 ;
+    /* color: #fafaff;   */
+   }
+   .foot ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+   }
+   .foot ul li a{
+    color: rgb(175, 173, 173);
+   }
+   .foot span{
+    font-size: 10px;
+    color: gray;
+   }

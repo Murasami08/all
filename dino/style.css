@@ -1,0 +1,56 @@
+.wrapper{
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+#dino{
+    background-image: url('dino.png');
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+   
+}
+#cactus{
+    background-image: url('cactus.png');
+    width: 20px;
+    height: 50px;
+    background-size: 20px 50px;
+    position: relative;
+    top: 100px;
+    left: 580px;
+    animation: moveC 1s infinite linear;
+}
+@keyframes moveC{
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+.jump{
+    animation: jump .3s  linear;
+}
+
+
+@keyframes jump{
+0%{
+    top: 150px;
+}
+30%{
+    top: 130px;
+}
+50%{
+top: 70px;
+}
+80%{
+top: 130px;
+}
+100%{
+top: 150px;
+}
+} 
+    

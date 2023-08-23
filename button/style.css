@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+.btn:hover{
+    box-shadow: 0 8px 65px -5px #cd106e;
+}
+.btn{
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 68px;
+    text-transform: uppercase;
+    background: #fc5185;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    min-width: 200px;
+    padding: 0 24px;
+    box-shadow: 0 10px 60px -10px #cd106e;
+    cursor: pointer;
+    transform: perspective(250px) scale3d(1,1,1);
+    transition: all 1s cubic-bezier(0.03,0.98,0.52,0.99);
+    outline: none;
+}
+a{
+    text-decoration: none;
+}

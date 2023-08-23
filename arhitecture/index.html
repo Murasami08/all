@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Architecture</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="libs/gsap.min.js" defer></script>
+	<script src="libs/Draggable.min.js" defer></script>
+	<script src="libs/InertiaPlugin.min.js" defer></script>
+	<script src="js/app.js" defer></script>
+	<style>
+		.gallery { opacity: 0; }
+	</style>
+
+</head>
+<body>
+
+	<h1 class="header">Architecture <span>Loading...</span></h1>
+
+
+
+	<div class="gallery">
+		<div class="gallery__item"><a href="https://coolhouses.ru/arhitektura/futuristichnyiy-dom-rivendell-v-yujnoy-koree.html"><img src="img/1.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://daily.afisha.ru/archive/vozduh/art/kak-neftyanye-dengi-pomogayut-iskusstvu/"><img src="img/2.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://mebeli36.ru/dom-v-stile-haj-tek.html"><img src="img/3.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://уютныйдом.рус/project/transera/"><img src="img/4.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/collection/189411799/-"><img src="img/5.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://ru.wikipedia.org/wiki/Центр_Гейдара_Алиева"><img src="img/6.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://dom.com.cy/catalog/sale/22266/"><img src="img/7.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://fototelegraf.ru/342469-arxitekturnye-shedevry-neprevzojdyonnoj-zaxi-xadid.html"><img src="img/8.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/461267186828415768/"><img src="img/9.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/gallery/20965531/Holes?tracking_source=search%7Cwroclaw"><img src="img/10.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://diagonalmar.ru/dom/10032"><img src="img/11.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://proms52.wixsite.com/karkas-nn/-------------c1r5b"><img src="img/12.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.gradiz.ru/project/uyut-v-kvadrate"><img src="img/13.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/639651953313322013/"><img src="img/14.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/176555247862955093/"><img src="img/15.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/861102391233482855/"><img src="img/16.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/hidekazukawarai/architecture/"><img src="img/17.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.archdaily.com/456608/daniel-libeskind-designs-apartment-building-for-berlin?ad_medium=widget&ad_name=recommendation"><img src="img/18.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.themodernhouse.com/journal/house-of-the-day-kooyong-residence-by-matt-gibson-architecture/"><img src="img/19.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://akspic.ru/image/150277-dnevnoe_vremya-neboskreb-nebo-dnevnoe_osveshhenie-liniya/2560x1440"><img src="img/20.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://coolhouses.ru/arhitektura/futuristichnyiy-dom-rivendell-v-yujnoy-koree.html"><img src="img/1.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://daily.afisha.ru/archive/vozduh/art/kak-neftyanye-dengi-pomogayut-iskusstvu/"><img src="img/2.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://mebeli36.ru/dom-v-stile-haj-tek.html"><img src="img/3.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://уютныйдом.рус/project/transera/"><img src="img/4.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/collection/189411799/-"><img src="img/5.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://ru.wikipedia.org/wiki/Центр_Гейдара_Алиева"><img src="img/6.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://dom.com.cy/catalog/sale/22266/"><img src="img/7.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://fototelegraf.ru/342469-arxitekturnye-shedevry-neprevzojdyonnoj-zaxi-xadid.html"><img src="img/8.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/461267186828415768/"><img src="img/9.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/gallery/20965531/Holes?tracking_source=search%7Cwroclaw"><img src="img/10.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://diagonalmar.ru/dom/10032"><img src="img/11.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://proms52.wixsite.com/karkas-nn/-------------c1r5b"><img src="img/12.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.gradiz.ru/project/uyut-v-kvadrate"><img src="img/13.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/639651953313322013/"><img src="img/14.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/176555247862955093/"><img src="img/15.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/861102391233482855/"><img src="img/16.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/hidekazukawarai/architecture/"><img src="img/17.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.archdaily.com/456608/daniel-libeskind-designs-apartment-building-for-berlin?ad_medium=widget&ad_name=recommendation"><img src="img/18.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.themodernhouse.com/journal/house-of-the-day-kooyong-residence-by-matt-gibson-architecture/"><img src="img/19.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://akspic.ru/image/150277-dnevnoe_vremya-neboskreb-nebo-dnevnoe_osveshhenie-liniya/2560x1440"><img src="img/20.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://coolhouses.ru/arhitektura/futuristichnyiy-dom-rivendell-v-yujnoy-koree.html"><img src="img/1.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://daily.afisha.ru/archive/vozduh/art/kak-neftyanye-dengi-pomogayut-iskusstvu/"><img src="img/2.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://mebeli36.ru/dom-v-stile-haj-tek.html"><img src="img/3.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://уютныйдом.рус/project/transera/"><img src="img/4.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/collection/189411799/-"><img src="img/5.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://ru.wikipedia.org/wiki/Центр_Гейдара_Алиева"><img src="img/6.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://dom.com.cy/catalog/sale/22266/"><img src="img/7.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://fototelegraf.ru/342469-arxitekturnye-shedevry-neprevzojdyonnoj-zaxi-xadid.html"><img src="img/8.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/461267186828415768/"><img src="img/9.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/gallery/20965531/Holes?tracking_source=search%7Cwroclaw"><img src="img/10.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://diagonalmar.ru/dom/10032"><img src="img/11.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://proms52.wixsite.com/karkas-nn/-------------c1r5b"><img src="img/12.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.gradiz.ru/project/uyut-v-kvadrate"><img src="img/13.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/639651953313322013/"><img src="img/14.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/176555247862955093/"><img src="img/15.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/861102391233482855/"><img src="img/16.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/hidekazukawarai/architecture/"><img src="img/17.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.archdaily.com/456608/daniel-libeskind-designs-apartment-building-for-berlin?ad_medium=widget&ad_name=recommendation"><img src="img/18.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.themodernhouse.com/journal/house-of-the-day-kooyong-residence-by-matt-gibson-architecture/"><img src="img/19.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://akspic.ru/image/150277-dnevnoe_vremya-neboskreb-nebo-dnevnoe_osveshhenie-liniya/2560x1440"><img src="img/20.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://coolhouses.ru/arhitektura/futuristichnyiy-dom-rivendell-v-yujnoy-koree.html"><img src="img/1.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://daily.afisha.ru/archive/vozduh/art/kak-neftyanye-dengi-pomogayut-iskusstvu/"><img src="img/2.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://mebeli36.ru/dom-v-stile-haj-tek.html"><img src="img/3.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://уютныйдом.рус/project/transera/"><img src="img/4.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/collection/189411799/-"><img src="img/5.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://ru.wikipedia.org/wiki/Центр_Гейдара_Алиева"><img src="img/6.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://dom.com.cy/catalog/sale/22266/"><img src="img/7.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://fototelegraf.ru/342469-arxitekturnye-shedevry-neprevzojdyonnoj-zaxi-xadid.html"><img src="img/8.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/461267186828415768/"><img src="img/9.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.behance.net/gallery/20965531/Holes?tracking_source=search%7Cwroclaw"><img src="img/10.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="http://diagonalmar.ru/dom/10032"><img src="img/11.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://proms52.wixsite.com/karkas-nn/-------------c1r5b"><img src="img/12.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.gradiz.ru/project/uyut-v-kvadrate"><img src="img/13.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/639651953313322013/"><img src="img/14.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/176555247862955093/"><img src="img/15.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/pin/861102391233482855/"><img src="img/16.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.pinterest.ru/hidekazukawarai/architecture/"><img src="img/17.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.archdaily.com/456608/daniel-libeskind-designs-apartment-building-for-berlin?ad_medium=widget&ad_name=recommendation"><img src="img/18.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://www.themodernhouse.com/journal/house-of-the-day-kooyong-residence-by-matt-gibson-architecture/"><img src="img/19.jpg" alt="Alt"></a></div>
+		<div class="gallery__item"><a href="https://akspic.ru/image/150277-dnevnoe_vremya-neboskreb-nebo-dnevnoe_osveshhenie-liniya/2560x1440"><img src="img/20.jpg" alt="Alt"></a></div>
+	</div>
+
+
+</body>
+</html>
